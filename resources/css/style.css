@@ -1,0 +1,29 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+  align-items: center;
+}
+
+table {
+  table-layout: fixed;
+  width: 250px;
+}
+
+td {
+  border: 2px solid;
+  margin: 0px;
+  padding: 20px;
+}
+
+.non-empty-cell {
+  background-color: aquamarine;
+}
+
+td:hover {
+  cursor: pointer;
+}
